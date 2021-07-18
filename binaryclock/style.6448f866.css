@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    background-color: #0A2A33;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: 0 0px 32px #42BC7F;
+    /* background-color:#F9FAFB; */
+    background-color: #0F4A4C;
+    border: 2px solid #42BC7F;
+}
+
+.time {
+    text-align: center;
+    color: #8CFF9B;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 7px;
+}
+
+.col:nth-child(even) {
+    margin-right: 15px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 102px;
+    margin-top: 7px;
+    font-size: 64px;
+    color: transparent;
+    background-color: #0A2A33;
+    border-radius: 3px;
+}
+
+.cell.active {
+    background-color: #8CFF9B;
+}
+
+
+
+/*# sourceMappingURL=/style.6448f866.css.map */
