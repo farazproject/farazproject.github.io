@@ -1,2 +1,3 @@
 # farazproject.github.io
-Side Projects
+Side Project of TicTacToe Board Game Developed in JavaScript. ES6  
+Muhammad Gulfaraz
